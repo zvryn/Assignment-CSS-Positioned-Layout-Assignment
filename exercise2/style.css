@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  background-color: gray;
+  height: 50px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 50px;
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 50px;
+  gap: 20px;
+  height: 100vh;
+}
+
+div {
+  height: 50px;
+  width: 200px;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 20px;
+  border-radius: 20px;
+}
+
+.box1,
+.box3 {
+  background-color: lightgreen;
+}
+
+.box2 {
+  background-color: lightgrey;
+}
+.box4,
+.box5 {
+  background-color: gray;
+}
+
+.box1 {
+  position: absolute;
+  right: 50px;
+}
+.box2 {
+  position: absolute;
+  flex-direction: row;
+  right: 50px;
+  top: 120px;
+}
+
+.box3 {
+  position: absolute;
+  right: 50px;
+  top: 190px;
+}
+
+.box4 {
+  position: absolute;
+  top: 260px;
+}
+
+.box5 {
+  position: absolute;
+  top: 330px;
+}
+
+.exit {
+  position: absolute;
+  background-color: rgb(211, 211, 211);
+  width: 20px;
+  height: 20px;
+  right: -5px;
+  top: -5px;
+}
+
+.exit p {
+  position: absolute;
+  left: 7px;
+  bottom: 2px;
+}
+
+.tail {
+  position: absolute;
+  background-color: lightgreen;
+  width: 50px;
+  height: 20px;
+  right: -10px;
+  top: 0px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 1px;
+}
